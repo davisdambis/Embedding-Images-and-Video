@@ -1,122 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body {
-    height: 2rem;
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    height: 7.5rem;
-    width: 100%;
-
-}
-
-.grid{
-    display: grid;
-    height: 100vh;
-    width: 100vw;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 10% 60% 20% 10%;
-    grid-row-gap: 1rem;
-    grid-column-gap: 1rem;
-}
-
 .navbar {
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
-    
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 10% 20% 40% 5% 5% 5%;
+}
+
+#menu {
+    width: 2rem;
+    margin-top: 3rem;
+    justify-self: right;
 }
 
 #logo {
-    float:left;
-    width: 7.5rem;
-    margin-left: 50px;
-    margin-top: 0.4rem;
-   
-
-    
+    width: 7rem;
+    margin-top: 3.1rem;
+    margin-left: 5rem;
+    justify-self: left;
 }
 
 #search {
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
-    float: center;
     border-radius: 0rem;
-    width: 40rem;
-    padding: 0.5rem;
+    width: 46.3rem;
+    height: 2rem;
+    margin-top: 3rem;
 }
 
 #button {
-    grid-row: 1 / 1;
-    grid-column: 2 / 2;
-    float: left;
     border: solid 0.1rem grey;
     border-radius: 0rem;
     width: 1.1rem;
+    margin-top: 3rem;
+    padding: 0.4rem;
+}
+
+#upload {
+    width: 3rem;
     padding: 0.5rem;
-    margin-top: 3rem;
-}
-#upload{
-   grid-row: 1 / 1;
-   grid-column: 2 / 2;
-    width: 3rem;   
-    padding: 0.5rem;  
-    margin-top: 3rem;
+    margin-top: 2rem;
+    justify-self: center;
 }
 
-#sign{
-    grid-row: 1 / 1;
-    grid-column: 2 / 2;
-    width: 15rem;   
-    padding: 0.5rem;  
-    margin-top: 3rem;
+#sign {
+    width: 5rem;
+    padding: 0.5rem;
+    margin-top: 2.5rem;
+    justify-self: right;
 }
 
-.main{
-    grid-row: 4 /4 ;
+.sidebar {
+    display: grid;
+    font-size: 0.7rem;
+    width: 100vw;
+    height: 70vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 12.7% 12.7% 12.7% 12.7% 12.7% 12.7% 12.7%;
 }
 
-#video{
-    
-    grid-row: 4 /4 ;
+.sidevids {
+    justify-self: right;
 }
 
-#title{
+
+/*
+.main {
+    grid-row: 4 /4;
+}
+
+#video {
+    grid-row: 1 /1;
+}
+
+#title {
     font-size: 12px;
     font-style: normal;
 }
 
-#views{
-    font-size: 10px ;
-    font-style: ;
+#views {
+    font-size: 10px;
 }
 
-.description{
-    font-size: 10px ;
+.description {
+    font-size: 10px;
     display: block;
 }
 
-#dislike{
-    width: 3rem;   
-    padding: 0.5rem;  
+#dislike {
+    width: 3rem;
+    padding: 0.5rem;
     margin-top: 3rem;
 }
 
-#like{
-    width: 3rem;   
-    padding: 0.5rem;  
+#like {
+    width: 3rem;
+    padding: 0.5rem;
     margin-top: 3rem;
 }
 
-#share-button{
-    width: 1.5rem;   
-    padding: 0.5rem;  
+#share-button {
+    width: 1.5rem;
+    padding: 0.5rem;
     margin-top: 3rem;
 }
 
-#subscribe{
-    width: 4rem;   
-    padding: 0.5rem;  
+#subscribe {
+    width: 4rem;
+    padding: 0.5rem;
     margin-top: 3rem;
 }
-
-.sidebar{
-    
