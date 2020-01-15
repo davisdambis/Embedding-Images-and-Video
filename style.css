@@ -6,36 +6,103 @@ body {
 header {
     height: 7.5rem;
     width: 100%;
-    display: flex;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "main main . sidebar" ;
+
+    
+
+
 }
 
 .navbar {
-    height: 100%;
-    width: 100%;
+    grid-area:header;
+    
 }
 
 #logo {
-    float: left;
     width: 7.5rem;
-    height: 7.5rem;
     margin-left: 50px;
     margin-top: 0.4rem;
+    
 }
 
 #search {
-    float: left;
+    grid-column-start: 2;
+
     border-radius: 0rem;
-    margin-left: 2rem;
     width: 50rem;
-    margin-top: 3rem;
     padding: 0.5rem;
 }
 
 #button {
-    float: left;
     border: solid 0.1rem grey;
     border-radius: 0rem;
     width: 1.1rem;
     padding: 0.5rem;
     margin-top: 3rem;
+}
+#upload{
+    width: 3rem;   
+    padding: 0.5rem;  
+    margin-top: 3rem;
+}
+
+#sign{
+    width: 15rem;   
+    padding: 0.5rem;  
+    margin-top: 3rem;
+}
+
+.main{
+   grid-area: main;
+}
+
+#video{
+    float: center;
+}
+
+#title{
+    font-size: 12px;
+    font-style: normal;
+}
+
+#views{
+    font-size: 10px ;
+    font-style: ;
+}
+
+#dislike{
+    width: 3rem;   
+    padding: 0.5rem;  
+    margin-top: 3rem;
+}
+
+#like{
+    width: 3rem;   
+    padding: 0.5rem;  
+    margin-top: 3rem;
+}
+
+#share-button{
+    width: 1.5rem;   
+    padding: 0.5rem;  
+    margin-top: 3rem;
+}
+
+#subscribe{
+    width: 4rem;   
+    padding: 0.5rem;  
+    margin-top: 3rem;
+}
+
+.sidebar{
+    grid-area: sidebar;
 }
