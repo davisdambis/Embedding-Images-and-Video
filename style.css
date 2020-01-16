@@ -50,3 +50,97 @@ nav {
     align-self: center;
     width: 8rem;
 }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+}
+
+#video{
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+#title{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+    justify-content: flex-start;
+
+}
+
+#views{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    
+}
+ .likes{
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+
+ }
+
+#like{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    
+}
+
+#dislike{
+    margin-right: 0.5rem;
+    margin-left:1rem;
+    width: 1.5rem;
+    
+}
+
+
+
+#share-button{
+   margin-right:0.5rem;
+   margin-left:1rem;
+    width: 1rem;
+}
+
+
+#user{
+    margin-left: 2rem;
+    display:inline-block;
+    align-self: center;
+    width: 5rem;
+    font-size: 1rem;
+
+}
+#username{
+    margin-left: 0.5rem;
+    display:inline-block;
+    align-self: center;
+    width: 5rem;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+#subscribers{
+    margin-left: 2rem;
+    font-size: 0.8rem;
+}
+
+#subscribe{
+    margin-left: 2rem;
+    align-self: center;
+    width: 8rem;
+}
+
+#date{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+#description{
+    margin-left: 2rem;
+    font-size: 1rem;
+}
