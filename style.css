@@ -51,106 +51,93 @@ nav {
     width: 8rem;
 }
 
-main{
+main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-#video{
+#video {
     align-self: flex-start;
     margin-left: 5rem;
+    padding-top: 5rem;
 }
 
-#title{
+#title {
     margin-left: 5rem;
     margin-top: 2rem;
     font-size: 1.5rem;
     text-align: left;
     justify-content: flex-start;
-
 }
 
-
-#views{
+#views {
     margin-left: 5rem;
     margin-top: 1rem;
     font-size: 0.8rem;
-    
 }
- .likes{
-    display:flex;
+
+.likes {
+    display: flex;
     align-items: baseline;
     justify-content: center;
-
- }
-
-#like{
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    width: 1.5rem;
-    
 }
 
-#dislike{
+#like {
     margin-right: 0.5rem;
-    margin-left:1rem;
+    margin-left: 16rem;
     width: 1.5rem;
-    
 }
 
+#dislike {
+    margin-right: 0.5rem;
+    margin-left: 2rem;
+    width: 1.5rem;
+}
 
-
-#share-button{
-   margin-right:0.5rem;
-   margin-left:1rem;
+#share-button {
+    margin-right: 1rem;
+    margin-left: 2rem;
     width: 1rem;
 }
 
-
-#user{
-    
+#user {
     margin-left: 5rem;
-    display:inline-block;
+    display: inline-block;
     align-self: center;
     width: 5rem;
     font-size: 1rem;
-
 }
-#username{
+
+#username {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    display:inline-block;
+    display: inline-block;
     align-self: center;
     width: 5rem;
     font-size: 1rem;
     white-space: nowrap;
 }
-.info{
-    display:flex;
+
+.info {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    
-
 }
 
-
-
-#subscribe{
-    margin-left: 30rem;
+#subscribe {
+    margin-left: 50rem;
     width: 8rem;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
-#date{
+#date {
     margin-left: 5rem;
     font-size: 1rem;
 }
 
-#description{
+#description {
     margin-left: 5rem;
     font-size: 1rem;
     margin-right: 40rem;
@@ -159,4 +146,42 @@ main{
     border-bottom: 0.01rem solid grey;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -59rem;
+    margin-right: 5rem;
+}
+
+.sidebarIMG {
+    width: 20rem;
+    padding: 1rem;
+}
+
+#UN {
+    margin-right: 23rem;
+    font-weight: bold;
+}
+
+.sidebarIMG1,
+.sidebarIMG2,
+.sidebarIMG3,
+.sidebarIMG4,
+.sidebarIMG5,
+.sidebarIMG6,
+.sidebarIMG7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+}
+
+.para {
+    margin-top: 1rem;
+}
+
+.color {
+    color: grey;
 }
