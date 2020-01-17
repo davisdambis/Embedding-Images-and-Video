@@ -67,17 +67,14 @@ main {
     display: inline-block;
     flex-wrap: wrap;
     flex-direction: column;
-    border: 2rem solid black;
-    width: 70%;
-    margin-right: 2%;
+    width: 65%;
 }
 
 #video {
-    align-self: flex-start;
     margin-left: 5rem;
     padding-top: 5rem;
     border: none;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 #title {
@@ -102,7 +99,7 @@ main {
 
 #like {
     margin-right: 0.5rem;
-    margin-left: 16rem;
+    margin-left: 50%;
     width: 1.5rem;
 }
 
@@ -144,9 +141,8 @@ main {
 }
 
 #subscribe {
-    margin-left: 50rem;
+    margin-left: 50%;
     width: 8rem;
-    flex-direction: row;
 }
 
 #date {
@@ -157,7 +153,6 @@ main {
 #description {
     margin-left: 5rem;
     font-size: 1rem;
-    margin-right: 40rem;
     margin-top: 2rem;
     border-top: 0.01rem solid grey;
     border-bottom: 0.01rem solid grey;
@@ -170,6 +165,7 @@ main {
     flex-direction: column;
     align-items: flex-end;
     width: 24%;
+    margin-right: 4%;
 }
 
 .sidebarIMG {
@@ -178,7 +174,7 @@ main {
 }
 
 #UN {
-    margin-right: 23rem;
+    margin-right: 12%;
     font-weight: bold;
 }
 
