@@ -73,6 +73,7 @@ main {
     align-self: flex-start;
     margin-left: 5rem;
     padding-top: 5rem;
+    border: none;
 }
 
 #title {
