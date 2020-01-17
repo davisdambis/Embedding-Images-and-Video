@@ -34,13 +34,17 @@ Special thanks to YouTube Authors
 👤 Davis Dambis
 
 Github: @davisdambis
+
 Twitter: @DDambis
+
 Linkedin: [Davis Dambis](https://www.linkedin.com/in/d%C4%81vis-dambis-51551219a/)
 
 👤 Brittany Blake
 
 Github: @BrittanyBlake
+
 Twitter: @bbcodes_
+
 Linkedin: [Brittany Blake](https://www.linkedin.com/in/brittany-blake-843951109/)
 
 Show your support
