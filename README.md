@@ -1,5 +1,5 @@
 # Embedding-Images-and-Video
-<<<<<<< review
+
 Navigation Bar
 Video Player section. Video player implemented with iframe.
 Information about the video(title, no. of views, like/dislike/share, uploader name, avatar, number of subscribers and subscribe button)
@@ -15,8 +15,6 @@ CSS 3
 and deployed to Raw Githack Live Demo
 
 [Live Demo](https://rawcdn.githack.com/davisdambis/Embedding-Images-and-Video/review/index.html)
-
-=======
 
     Navigation Bar
     Video Player section. Video player implemented with iframe.
@@ -36,12 +34,11 @@ Live Demo
 
 Live Demo
 https://rawcdn.githack.com/davisdambis/Embedding-Images-and-Video/review/index.html
->>>>>>> master
+
 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
 
-<<<<<<< review
 Forking the project
 Cloning the project to your local machine
 cd into the project directory
@@ -75,7 +72,7 @@ Show your support
 Give a ⭐️ if you like this project! 📝 License
 
 Free Enjoy!
-=======
+
     Forking the project
     Cloning the project to your local machine
     cd into the project directory
@@ -109,4 +106,3 @@ Give a ⭐️ if you like this project!
 
 Free
 Enjoy!
->>>>>>> master
