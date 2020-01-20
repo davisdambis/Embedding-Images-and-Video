@@ -72,37 +72,3 @@ Show your support
 Give a ⭐️ if you like this project! 📝 License
 
 Free Enjoy!
-
-    Forking the project
-    Cloning the project to your local machine
-    cd into the project directory
-    Run git checkout -b your-branch-name
-    Make your contributions
-    Push your branch up to your forked repository
-    Open a Pull Request with a detailed description to the development branch of the original project for a review
-
-Attributions and Credit
-
-Special thanks to YouTube
-Authors
-
-👤 Davis Dambis
-
-    Github: @davisdambis
-    Twitter: @DDambis
-    Linkedin: [Davis Dambis] https://www.linkedin.com/in/d%C4%81vis-dambis-51551219a/
-
-👤 Brittany Blake
-
-    Github: @BrittanyBlake
-    Twitter: @bbcodes_
-    Linkedin: [Brittany Blake] https://www.linkedin.com/in/brittany-blake-843951109/
-
-
-Show your support
-
-Give a ⭐️ if you like this project!
-📝 License
-
-Free
-Enjoy!
