@@ -35,10 +35,15 @@ nav {
 }
 
 #button {
-    width: 2.9rem;
+    width: 4rem;
     border: solid 0.1rem grey;
     align-self: center;
     margin-right: 20rem;
+}
+
+#btnimg {
+    width: 2.7rem;
+    align-self: center;
 }
 
 #upload {
@@ -96,24 +101,7 @@ main {
     display: flex;
     align-items: baseline;
     justify-content: center;
-}
-
-#like {
-    margin-right: 0.5rem;
-    margin-left: 50%;
-    width: 1.5rem;
-}
-
-#dislike {
-    margin-right: 0.5rem;
-    margin-left: 2rem;
-    width: 1.5rem;
-}
-
-#share-button {
-    margin-right: 1rem;
-    margin-left: 2rem;
-    width: 1rem;
+    margin-left: 40rem;
 }
 
 #user {
@@ -141,9 +129,15 @@ main {
     justify-content: flex-start;
 }
 
-#subscribe {
-    margin-left: 50%;
+.subscribe {
+    margin-left: 52%;
     width: 8rem;
+    height: 2.9rem;
+}
+
+.subIMG {
+    width: 10rem;
+    height: 3rem;
 }
 
 #date {
