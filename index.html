@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---  <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="style.css">
     <title>Youtube Clone</title>
 </head>
@@ -12,78 +13,80 @@
 <body>
     <!--Navigation-->
     <nav>
-        <img id="menu" src=http://www.localyoo.com/imgs/site/mobile-icon.png>
-        <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJHoKMTSCxHQBhsTSA-kEaXheQ-rZosSpRuIC24wj-uOPS8j8gOw&s">
+        <img alt="menu icon" id="menu" src=http://www.localyoo.com/imgs/site/mobile-icon.png>
+        <img alt="logo icon" id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJHoKMTSCxHQBhsTSA-kEaXheQ-rZosSpRuIC24wj-uOPS8j8gOw&s">
         <input id="search" type="search" value="Search">
-        <img id="button" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8QvsjSAZbM_G8PdXr_pNSsna2MYEvcdG5QzbV-stTqzNX1nAAw&s">
-        <img id="upload" src="https://webstockreview.net/images1280_/upload-icon-png-13.png">
-        <img id="sign" src="https://developers.google.cn/identity/toolkit/images/sign_in_button.png">
+        <input alt="submit" id="button" type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8QvsjSAZbM_G8PdXr_pNSsna2MYEvcdG5QzbV-stTqzNX1nAAw&s">
+        <img alt="upload button" id="upload" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfObr6gdUw_-AEzuzDbPFGlntAadCgd6T8AQD_gIQgELqpVJx0Q&s">
+        <img alt="apps button" id="rubic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9Esfq8WFNX_01KRMEzqlJQquQklYoP2UtMdayPR6O3ck-lRMXA&s">
+        <img alt="settings button" id="dots" src="https://cdn3.iconfinder.com/data/icons/user-interface-1-10/24/icon-ui-1-options-512.png">
+        <img alt="sign in button" id="sign" src="https://developers.google.cn/identity/toolkit/images/sign_in_button.png">
     </nav>
 
     <!--video-->
     <main>
-        <iframe id="video" width="1024" height="590" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video" width="1024" height="590" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h1 id="title">Contributing to Open Source Part I: The Easy Way </h1>
         <h3 id="views"> 50,016 views • Published on Feb 27, 2014 </h3>
 
         <section class="likes">
-            <img id="like" src="https://i.ebayimg.com/images/g/0woAAOSwFdtX1Nxd/s-l300.jpg">
+            <img alt="like button" id="like" src="https://i.ebayimg.com/images/g/0woAAOSwFdtX1Nxd/s-l300.jpg">
             <p>393</p>
-            <img id="dislike" src="https://www.vippng.com/png/detail/61-619499_thumbs-down-comments-icon-thumb-down-png.png">
+            <img alt="dislike button" id="dislike" src="https://www.vippng.com/png/detail/61-619499_thumbs-down-comments-icon-thumb-down-png.png">
             <p>15</p>
-            <p><img id="share-button" src="https://retohercules.com/images/youtube-share-button-png-7.png">Share</p>
+            <p><img alt="share button" id="share-button" src="https://retohercules.com/images/youtube-share-button-png-7.png">Share</p>
         </section>
 
         <section class="info">
-            <img id="user" src="https://yt3.ggpht.com/a/AGF-l79PHE32UB5d2fnmwsiJXu3vv_fnC_SNO899VQ=s48-c-k-c0xffffffff-no-rj-mo">
+            <img alt="user image" id="user" src="https://yt3.ggpht.com/a/AGF-l79PHE32UB5d2fnmwsiJXu3vv_fnC_SNO899VQ=s48-c-k-c0xffffffff-no-rj-mo">
             <p id="username">The Odin Project <br> 906 Subscribers</p>
-            <img id="subscribe" src="https://cdn.worldvectorlogo.com/logos/subscribe-youtube.svg">
+            <img alt="subscribe button" id="subscribe" src="https://cdn.worldvectorlogo.com/logos/subscribe-youtube.svg">
         </section>
-        <section class="description"></section>
-        <p id="description"> How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.
-            I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning
-            web development with Ruby on Rails. You can find more information about that project at <a href="http://theodinproject.com.">http://theodinproject.com.</a></p>
+        <section class="description">
+            <p id="description"> How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of
+                Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum
+                for learning web development with Ruby on Rails. You can find more information about that project at <a href="http://theodinproject.com.">http://theodinproject.com.</a></p>
         </section>
     </main>
 
     <!--Sidebar-->
-    <section class="sidebar">
+    <aside class="sidebar">
         <p id="UN">UP NEXT</p>
         <section class="sidebarIMG1">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802">
             <p class="para" style="width: 100px;">Contributing to Open Source Part II: The Real Way<br><br><span class="color">The Odin Project<br>29,985 views</span></p>
         </section>
 
         <section class="sidebarIMG2">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207">
             <p class="para" style="width: 100px;">'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by<br><br><span class="color">imtiana<br>981,543 views</span></p>
         </section>
 
         <section class="sidebarIMG3">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/94ce5195858269ff0184aa735ee160f562dafac4">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/94ce5195858269ff0184aa735ee160f562dafac4">
             <p class="para" style="width: 100px;">Programming in Visual Basic .Net How to Connect Access Database to<br><br><span class="color">iBasskung<br>16,130,993 views</span></p>
         </section>
 
         <section class="sidebarIMG4">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/42fcf704757c206b21126f9ef6c413eff28de822">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/42fcf704757c206b21126f9ef6c413eff28de822">
             <p class="para" style="width: 100px;">REST API concepts and examples<br><br><span class="color">WebConcepts<br>3,580,484 views</span></p>
         </section>
 
         <section class="sidebarIMG5">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97">
             <p class="para" style="width: 100px;">GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case<br><br><span class="color">Valuetainment<br>444,634 views</span></p>
         </section>
 
         <section class="sidebarIMG6">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/e551ad6b2fda543caa6fbd78c98ec95c1f1d0aff">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/e551ad6b2fda543caa6fbd78c98ec95c1f1d0aff">
             <p class="para" style="width: 100px;">How to create a 3D Terrain with Google Maps and height maps in Photoshop<br><br><span class="color">Orange Box Ceo<br>6,269,391 views</span></p>
         </section>
 
         <section class="sidebarIMG7">
-            <img class="sidebarIMG" src="https://archive.ph/Bss88/df21e12d7260fba2247c4dd328453a98929270e9">
+            <img alt="video thumbnail" class="sidebarIMG" src="https://archive.ph/Bss88/df21e12d7260fba2247c4dd328453a98929270e9">
             <p class="para" style="width: 100px;">Convolutional Neural Networks (CNNs) explained<br><br><span class="color">deeplizard<br>239,752 views</span></p>
         </section>
-
+    </aside>
 </body>
 
 </html>
