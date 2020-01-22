@@ -10,8 +10,8 @@ What it does
 
 It shows you a static clone of the youtube video player page. Built With
 
-HTML 5
-CSS 3
+- HTML 5
+- CSS 3
 
 and deployed to Raw Githack Live Demo
 
@@ -21,13 +21,13 @@ and deployed to Raw Githack Live Demo
 
 Contributions, issues and feature requests are welcome! Start by:
 
-Forking the project
-Cloning the project to your local machine
-cd into the project directory
-Run git checkout -b your-branch-name
-Make your contributions
-Push your branch up to your forked repository
-Open a Pull Request with a detailed description to the development branch of the original project for a review
+- Forking the project
+- Cloning the project to your local machine
+- cd into the project directory
+- Run git checkout -b your-branch-name
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 Attributions and Credit
 
@@ -35,19 +35,19 @@ Special thanks to YouTube Authors
 
 👤 Davis Dambis
 
-Github: @davisdambis
+- Github: @davisdambis
 
-Twitter: @DDambis
+- Twitter: @DDambis
 
-Linkedin: [Davis Dambis](https://www.linkedin.com/in/d%C4%81vis-dambis-51551219a/)
+- Linkedin: [Davis Dambis](https://www.linkedin.com/in/d%C4%81vis-dambis-51551219a/)
 
 👤 Brittany Blake
 
-Github: @BrittanyBlake
+- Github: @BrittanyBlake
 
-Twitter: @bbcodes_
+- Twitter: @bbcodes_
 
-Linkedin: [Brittany Blake](https://www.linkedin.com/in/brittany-blake-843951109/)
+- Linkedin: [Brittany Blake](https://www.linkedin.com/in/brittany-blake-843951109/)
 
 Show your support
 
