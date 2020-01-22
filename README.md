@@ -1,9 +1,9 @@
 # Embedding-Images-and-Video
 
-Navigation Bar
-Video Player section.
-Video player implemented with iframe.
-Information about the video(title, no. of views, like/dislike/share, uploader name, avatar, number of subscribers and subscribe button)
+-Navigation Bar
+-Video Player section
+-Video player implemented with iframe
+-Information about the video(title, no. of views, like/dislike/share, uploader name, avatar, number of subscribers and subscribe button)
 Sidebar containing Up Next
 
 What it does
