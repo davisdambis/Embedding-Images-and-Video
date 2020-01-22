@@ -15,7 +15,7 @@ It shows you a static clone of the youtube video player page. Built With
 
 and deployed to Raw Githack Live Demo
 
-[Live Demo](https://rawcdn.githack.com/davisdambis/Embedding-Images-and-Video/review/index.html)
+[Live Demo](https://rawcdn.githack.com/davisdambis/Embedding-Images-and-Video/c91cb04fc042b0e2f3efc0558cb8cfead61978e5/index.html)
 
 🤝 Contributing
 
